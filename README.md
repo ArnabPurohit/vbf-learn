@@ -61,4 +61,14 @@ The configuration files given in `config/` are based on ROOT trees produced flas
 
 An example of training can be found in `examples`
 
+# Converting a classifier to XML-TMVA 
+
+
+```python
+new_xml='sklearn_training_moriond17_v8.xml'
+classify.converter.convert_bdt__Grad(bdt_clf=clf,input_var_list=features,tmva_outfile_xml=new_xml)
+```
+
+Where the `clf` is your `GradientBoostingClassifier` and `features` is the list of features names.
+    
 
