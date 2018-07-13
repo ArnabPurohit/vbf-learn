@@ -9,7 +9,7 @@ You can install this tools in your local machine or on SWAN using the following 
 ```bash
 git clone git@github.com:yhaddad/vbf-learn.git
 cd vbf-learn
-pip install . 
+pip install . --user
 ```
 You need to have pip and ROOT installed in your machine as well sklean, pandas and numpy packages.
 I recomend using SWAN if you don't have the right setup on your local machine. You can lunch a terminal directly though your prowser and install the missing packages (ROOT environement will be already set), you can just start a terminal session and run the previous commands. You might also have add `--user` to the `pip install .` command if required.
